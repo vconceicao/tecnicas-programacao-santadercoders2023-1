@@ -19,10 +19,11 @@ public class ComparacaoDatas {
 
         System.out.println("A dataHora futura é depois da dataHora atual? "
                 + dataHoraFutura.isAfter(dataHoraAtual));
-        System.out.println("A dataHora autual é anterior da dataHora futura? "
+        System.out.println("A dataHora atual é anterior da dataHora futura? "
                 + dataHoraAtual.isBefore(dataHoraFutura));
 
-
+        System.out.println("A dataHora atual é igual data atual criada manualmente? "+
+                dataAtual.isEqual(LocalDate.of(2023, Month.SEPTEMBER, 18)));
 
 
 
