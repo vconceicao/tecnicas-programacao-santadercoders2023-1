@@ -23,6 +23,17 @@ public class Funcionario {
         this.salario = salario;
     }
 
+    public Funcionario(Integer id, String nome, String sexo, LocalDate dataNascimento, String cidade, String cargo, LocalDate dataAdmissao, Double salario) {
+        this.id = id;
+        this.nome = nome;
+        this.sexo = sexo;
+        this.dataNascimento = dataNascimento;
+        this.cidade = cidade;
+        this.cargo = cargo;
+        this.dataAdmissao = dataAdmissao;
+        this.salario = salario;
+    }
+
     public Integer getId() {
         return id;
     }
